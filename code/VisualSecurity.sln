@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLI", "CLI", "{2F9EE656-943C-4DD6-A920-4AFCBBE2CB3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A901FB76-2F35-4FEA-B476-A07292C9E505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4D9378CF-AC69-4CBA-9975-11278CF52BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{D312081A-39BA-41CA-A11E-F3FB2E7F1A51}"
+	ProjectSection(SolutionItems) = preProject
+		VisualSecurity\FrontEnd\gridDataJson.js = VisualSecurity\FrontEnd\gridDataJson.js
+		VisualSecurity\FrontEnd\index.html = VisualSecurity\FrontEnd\index.html
+		VisualSecurity\FrontEnd\maps.js = VisualSecurity\FrontEnd\maps.js
+		VisualSecurity\FrontEnd\video-camera-icon.png = VisualSecurity\FrontEnd\video-camera-icon.png
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchCLI", "VisualSecurity\CLI\SearchCLI\SearchCLI.csproj", "{8F966DCB-89EA-41C4-95F6-54004C587AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualSecurity.Domain", "VisualSecurity\Shared\VisualSecurity.Domain\VisualSecurity.Domain.csproj", "{8DA05892-5D30-4A97-A403-BFFA32152E1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualSecurity.Infrastructure.Csv", "VisualSecurity\Shared\VisualSecurity.Infrastructure.Csv\VisualSecurity.Infrastructure.Csv.csproj", "{116C8FF3-3C78-4293-A10D-DBD122D868FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchCLI.Application", "VisualSecurity\CLI\SearchCLI.Application\SearchCLI.Application.csproj", "{A76A6726-2B0A-4A0B-BB8D-47001CE01732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityCameraAPI.Application", "VisualSecurity\API\CameraAPI.Application\SecurityCameraAPI.Application.csproj", "{AB3262EC-A779-4D70-88BF-E75EC53E82D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EA0819AF-D209-4FE7-A290-5F0CBB2ED66A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualSecurity.Utilities", "VisualSecurity\Shared\VisualSecurity.Utilies\VisualSecurity.Utilities.csproj", "{77A01120-7D33-48B7-9A1F-6835E49EB49A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityCameraAPI", "VisualSecurity\API\SecurityCameraAPI\SecurityCameraAPI.csproj", "{4B203809-4C2F-42E7-B584-38D3D09DA0FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F966DCB-89EA-41C4-95F6-54004C587AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F966DCB-89EA-41C4-95F6-54004C587AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F966DCB-89EA-41C4-95F6-54004C587AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F966DCB-89EA-41C4-95F6-54004C587AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA05892-5D30-4A97-A403-BFFA32152E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA05892-5D30-4A97-A403-BFFA32152E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA05892-5D30-4A97-A403-BFFA32152E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA05892-5D30-4A97-A403-BFFA32152E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116C8FF3-3C78-4293-A10D-DBD122D868FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116C8FF3-3C78-4293-A10D-DBD122D868FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116C8FF3-3C78-4293-A10D-DBD122D868FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116C8FF3-3C78-4293-A10D-DBD122D868FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76A6726-2B0A-4A0B-BB8D-47001CE01732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76A6726-2B0A-4A0B-BB8D-47001CE01732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76A6726-2B0A-4A0B-BB8D-47001CE01732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76A6726-2B0A-4A0B-BB8D-47001CE01732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3262EC-A779-4D70-88BF-E75EC53E82D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3262EC-A779-4D70-88BF-E75EC53E82D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3262EC-A779-4D70-88BF-E75EC53E82D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3262EC-A779-4D70-88BF-E75EC53E82D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A01120-7D33-48B7-9A1F-6835E49EB49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A01120-7D33-48B7-9A1F-6835E49EB49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A01120-7D33-48B7-9A1F-6835E49EB49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A01120-7D33-48B7-9A1F-6835E49EB49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B203809-4C2F-42E7-B584-38D3D09DA0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B203809-4C2F-42E7-B584-38D3D09DA0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B203809-4C2F-42E7-B584-38D3D09DA0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B203809-4C2F-42E7-B584-38D3D09DA0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F966DCB-89EA-41C4-95F6-54004C587AC4} = {2F9EE656-943C-4DD6-A920-4AFCBBE2CB3E}
+		{8DA05892-5D30-4A97-A403-BFFA32152E1B} = {4D9378CF-AC69-4CBA-9975-11278CF52BFE}
+		{116C8FF3-3C78-4293-A10D-DBD122D868FE} = {4D9378CF-AC69-4CBA-9975-11278CF52BFE}
+		{A76A6726-2B0A-4A0B-BB8D-47001CE01732} = {2F9EE656-943C-4DD6-A920-4AFCBBE2CB3E}
+		{AB3262EC-A779-4D70-88BF-E75EC53E82D7} = {A901FB76-2F35-4FEA-B476-A07292C9E505}
+		{77A01120-7D33-48B7-9A1F-6835E49EB49A} = {4D9378CF-AC69-4CBA-9975-11278CF52BFE}
+		{4B203809-4C2F-42E7-B584-38D3D09DA0FF} = {A901FB76-2F35-4FEA-B476-A07292C9E505}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B46FEBC8-3B41-47B5-AEF1-A74F4DE4FC56}
+	EndGlobalSection
+EndGlobal

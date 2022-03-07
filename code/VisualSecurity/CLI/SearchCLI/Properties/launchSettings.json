@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SearchCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "--name Neude"
+    }
+  }
+}
